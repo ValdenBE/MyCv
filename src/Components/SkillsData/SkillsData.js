@@ -6,6 +6,7 @@ import LaptopMacIcon from '@material-ui/icons/LaptopMac';
 
 
 
+
 class SkillsData extends Component {
   render() {
     
@@ -16,7 +17,13 @@ class SkillsData extends Component {
             <Fragment>
             <p className="Skills-Title">{el.title}<LaptopMacIcon style={{color:"#6ab5d4"}}/></p>
             <hr />
-            <p>{el.items.join(", ")}</p>
+            {el.items.map((el)=>{
+              return(
+                <Fragment>
+                <p><span>{el.name}</span> - Niveau : {el.rate}/4</p>
+                </Fragment>
+              )
+            })}
             </Fragment>
           )
         })}

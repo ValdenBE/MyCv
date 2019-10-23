@@ -15,6 +15,6 @@
   .Frame {
     width: 16rem;
     display: flex;
-    margin-right: 1rem;
-    margin-left: auto;
+    margin-right: auto;
+    margin-left: 6.6rem;
 }
