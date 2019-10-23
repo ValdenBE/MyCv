@@ -14,19 +14,16 @@ function App() {
       <Grid className="Personal-Column" item xs={12} sm={4}>
       <PersonalData />
       </Grid>
-      
       <Grid  item xs={12} sm={8}>
       <Grid container spacing={3}>
       <Grid className="print Forma-Column" item xs={12} sm={6}>
       <SchoolData />
       <SkillsData />
       </Grid>
-
       <Grid className="print Forma-Column" item xs={12} sm={6}>
       <WorkData />
       <HobiesData />
       </Grid>
-
       </Grid>
       </Grid>
       </Grid>

@@ -7,6 +7,7 @@ const CVData = {
     personalData: {
       name: 'Pirghaye Fabian',
       title: 'Junior Web Developer',
+      alias: '" Valden "',
       image: ProfilePic,
       contacts: [
         { type: 'Mail', value: 'Pirghaye.f@gmail.com' },

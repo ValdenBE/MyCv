@@ -3,3 +3,12 @@
     max-width: 100% !important;
     flex-basis:  100% !important;
 }
+.App {
+    text-align: center;
+    margin: 1%;
+    margin-top: 1% !important;
+    border-radius: 15px;
+    padding: 2%;
+    background-color: white;
+    border: none !important;
+  }

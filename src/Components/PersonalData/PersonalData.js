@@ -9,7 +9,9 @@ class PersonalData extends Component {
     return (
       <div className="PersonalData">
         <p className="Personal-Name">{Data.personalData.name}</p>
+        <p className="Personal-Alias">{Data.personalData.alias}</p>
         <p className="Personal-Title">{Data.personalData.title}</p>
+       
         <img className="ProfilePic" src={Data.personalData.image} alt="Profile Pic"></img>
         {Data.personalData.desc.map(el =>{
           return (
