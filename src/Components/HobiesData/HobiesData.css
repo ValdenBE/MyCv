@@ -7,4 +7,9 @@
 font-style: italic;
 margin-bottom: -0.8rem;
 text-align: initial;
+display: flex;
+justify-content: space-between;
+}
+p{
+    font-family: 'Roboto', sans-serif;
 }

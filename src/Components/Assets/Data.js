@@ -20,7 +20,7 @@ const CVData = {
         {
           type: 'text',
           title: 'Career Profile',
-          content: 'Esse dolore consectetur ut velit eiusmod minim excepteur.',
+          content: 'Développeur Web Junior en fin de formation. Je recherche un stage afin de me former en entreprise.',
         },
       ],
     },
@@ -28,15 +28,15 @@ const CVData = {
     school: 
       {
         type: 'common-list',
-        title: 'Formations',
+        title: 'Mes Formations ',
         icon: 'graduation',
         items: [
           {
             title: 'Junior Web Developer',
             authority: 'Becode Liège',
             authorityWebSite: 'Becode.org',
-            rightSide: '2019.5 - 2019.12',
-          }
+            rightSide: 'Mai 2019 - Décembre 2019',
+          },
         ]
       },
     
@@ -47,7 +47,7 @@ const CVData = {
     work: 
       {
         type: 'experiences-list',
-        title: 'Experiences',
+        title: 'Mon Experience',
         description: 'Optional',
         icon: 'archive',
         items: [
@@ -57,7 +57,7 @@ const CVData = {
             description: '/',
             companyWebSite: '/',
             companyMeta: '/',
-            datesBetween: '2018'
+            datesBetween: '2018-2019'
           },
           {
             title: 'Ouvrier en aménagement extérieur',
@@ -86,7 +86,7 @@ const CVData = {
       
       {
         type: 'tag-list',
-        title: 'Skills Proficiency',
+        title: 'Mes Connaissances',
         icon: 'rocket',
         items: ['React', 'Javascript', 'CSS/SASS', 'Html', 'Node', 'Angular']
       },
@@ -94,9 +94,9 @@ const CVData = {
 
     hobies:[{
       type: 'tag-list',
-      title: 'Hobies & Interests',
+      title: 'Mes Hobbies',
       icon: 'cubes',
-      items: ['Photography', 'Poetry']
+      items: ['Jeux vidéos', 'Musique', 'Informatique', 'Technologie']
     },]
     
   }

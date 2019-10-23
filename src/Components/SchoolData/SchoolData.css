@@ -8,4 +8,13 @@ font-style: italic;
 margin-bottom: -0.8rem;
 text-align: initial;
 padding-left: 1rem;
+display: flex;
+justify-content: space-between;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.MuiSvgIcon-root {
+    fill: currentColor;
+    font-size: 3rem !important;
 }

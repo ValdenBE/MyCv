@@ -1,6 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import './WorkData.css';
 import Data from '../Assets/Data';
+import WorkIcon from '@material-ui/icons/Work';
+
+
 
 
 class WorkData extends Component {
@@ -8,7 +11,7 @@ class WorkData extends Component {
     
     return (
       <div className="WorkData">
-        <p className="Work-Title">{Data.work.title}</p>
+        <p className="Work-Title">{Data.work.title}<WorkIcon style={{color:"#6ab5d4"}}/></p>
         <hr />
         {Data.work.items.map((el, i)=>{
           return(

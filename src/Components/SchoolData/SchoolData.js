@@ -1,6 +1,10 @@
 import React, { Component, Fragment } from 'react';
 import './SchoolData.css';
 import Data from '../Assets/Data';
+import MenuBookIcon from '@material-ui/icons/MenuBook';
+
+
+
 
 
 
@@ -9,8 +13,9 @@ class SchoolData extends Component {
   render() {
     
     return (
-      <div className="SchoolData"><p className="School-Title">{Data.school.title}</p>
+      <div className="SchoolData"><p className="School-Title">{Data.school.title}<MenuBookIcon style={{color:"#6ab5d4"}}/></p>
         <hr />
+        
         {Data.school.items.map((el, i)=>{
           return(
             <Fragment>

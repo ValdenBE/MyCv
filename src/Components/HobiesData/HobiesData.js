@@ -1,6 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import './HobiesData.css';
 import Data from '../Assets/Data';
+import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
+
+
 
 
 class HobiesData extends Component {
@@ -11,7 +14,7 @@ class HobiesData extends Component {
         {Data.hobies.map((el, id)=>{
           return(
             <Fragment>
-            <p className="Hobbies-Title">{el.title}</p>
+            <p className="Hobbies-Title">{el.title}<SportsEsportsIcon style={{color:"#6ab5d4"}}/></p>
             <hr />
             <p>{el.items.join(", ")}</p>
             </Fragment>
