@@ -6,6 +6,7 @@ import WorkData from './Components/WorkData/WorkData'
 import SkillsData from './Components/SkillsData/SkillsData'
 import HobiesData from './Components/HobiesData/HobiesData'
 import Grid from '@material-ui/core/Grid';
+import Frame from './frame.png'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       </Grid>
       </Grid>
       </Grid>
+      <img className="Frame" src={Frame} alt="frame"/>
     </div>
   );
 }

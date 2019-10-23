@@ -12,3 +12,9 @@
     background-color: white;
     border: none !important;
   }
+  .Frame {
+    width: 16rem;
+    display: flex;
+    margin-right: 1rem;
+    margin-left: auto;
+}

@@ -27,3 +27,9 @@
   color: #09d3ac;
 }
 
+.Frame {
+  width: 16rem;
+  display: flex;
+  margin-right: 1rem;
+  margin-left: auto;
+}
