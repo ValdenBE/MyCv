@@ -82,43 +82,9 @@ const CVData = {
 
     {
       title: 'Mes Connaissances',
-      items: [{
-          name: 'React',
-          rate: '2',
-        },
-        {
-          name: 'Javascript',
-          rate: '2',
-        },
-        {
-          name: 'Typescript',
-          rate: '1',
-        },
-        {
-          name: 'Html',
-          rate: '2',
-        },
-        {
-          name: 'Css/Sass',
-          rate: '2',
-        },
-        {
-          name: 'Wordpress',
-          rate: '2',
-        },
-        {
-          name: 'Node',
-          rate: '2',
-        },
-        {
-          name: 'Git & GitFlow',
-          rate: '2',
-        },
-        {
-          name: 'Angular',
-          rate: '1',
-        },
-      ]
+      
+      itemsOne: ['Typescript', 'Angular', 'PHP'],
+      itemsTwo: ['React', 'Javascript', 'Html', 'Css/Sass','Wordpress','Node','Git & Gitflow']
     },
   ],
   softSkills: [

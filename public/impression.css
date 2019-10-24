@@ -1,24 +1,34 @@
-.print {
+@media print { 
+  * {
+    
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+  html {    
+    zoom: 95%;
+  }
+  .print {
     flex-grow: 0 !important;
     max-width: 100% !important;
     flex-basis:  100% !important;
 }
 .App {
-    text-align: center;
-    margin: 1%;
+    text-align: center !important;
+    margin: 1% !important;
     margin-top: -1% !important;
-    border-radius: 15px;
-    padding: 2%;
-    background-color: white;
+    border-radius: 15px !important;
+    padding: 2% !important;
+    background-color: white !important;
     border: none !important;
   }
   .Frame {
-    width: 16rem;
-    display: flex;
-    margin-right: auto;
-    margin-left: 1rem !important;
-    margin-top: -30rem !important;
+    width: 16rem !important;
+    display: flex !important;
+    margin-right: auto !important;
+    margin-left: 1.2rem !important;
+    margin-top: -10rem !important;
 }
 .SkillsData {
   margin-bottom: 0 !important;
+}
 }
