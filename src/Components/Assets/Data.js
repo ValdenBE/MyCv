@@ -36,9 +36,7 @@ const CVData = {
   },
 
   school: {
-    type: 'common-list',
     title: 'Mes Formations ',
-    icon: 'graduation',
     items: [{
       title: 'Junior Web Developer',
       authority: 'Becode Liège',
@@ -52,16 +50,12 @@ const CVData = {
 
 
   work: {
-    type: 'experiences-list',
     title: 'Mon Experience',
-    description: 'Optional',
-    icon: 'archive',
     items: [{
         title: 'Magasinier Cariste',
         company: 'Dreamland & LACHS',
         description: '/',
         companyWebSite: '/',
-        companyMeta: '/',
         datesBetween: '2018-2019'
       },
       {
@@ -69,7 +63,6 @@ const CVData = {
         company: 'Maton Sport',
         description: '/',
         companyWebSite: '/',
-        companyMeta: '/',
         datesBetween: '2018'
       },
       {
@@ -77,9 +70,7 @@ const CVData = {
         company: 'Sprimoglass, Belourthe & Pere Olive',
         description: '/',
         companyWebSite: '/',
-        companyMeta: '',
         datesBetween: '2011 - 2017',
-        descriptionTags: ['/']
       },
     ]
   },
@@ -90,9 +81,7 @@ const CVData = {
   skills: [
 
     {
-      type: 'tag-list',
       title: 'Mes Connaissances',
-      icon: 'rocket',
       items: [{
           name: 'React',
           rate: '2',
@@ -102,11 +91,19 @@ const CVData = {
           rate: '2',
         },
         {
+          name: 'Typescript',
+          rate: '1',
+        },
+        {
           name: 'Html',
           rate: '2',
         },
         {
           name: 'Css/Sass',
+          rate: '2',
+        },
+        {
+          name: 'Wordpress',
           rate: '2',
         },
         {
@@ -124,11 +121,15 @@ const CVData = {
       ]
     },
   ],
+  softSkills: [
 
+    {
+      title: 'Mes Soft Skills',
+      items: ['Communication', 'Gestion du stress', 'Motivation','Curiosité']
+    },
+  ],
   hobies: [{
-    type: 'tag-list',
     title: 'Mes Hobbies',
-    icon: 'cubes',
     items: ['Jeux vidéos', 'Musique', 'Informatique', 'Technologie']
   }, ]
 

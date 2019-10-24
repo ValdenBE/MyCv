@@ -6,7 +6,7 @@
 .App {
     text-align: center;
     margin: 1%;
-    margin-top: 1% !important;
+    margin-top: -1% !important;
     border-radius: 15px;
     padding: 2%;
     background-color: white;
@@ -16,5 +16,9 @@
     width: 16rem;
     display: flex;
     margin-right: auto;
-    margin-left: 6.6rem;
+    margin-left: 1rem !important;
+    margin-top: -30rem !important;
+}
+.SkillsData {
+  margin-bottom: 0 !important;
 }
