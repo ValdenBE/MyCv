@@ -11,7 +11,7 @@ class SkillsData extends Component {
         {Data.skills.map((el, id) => {
           return (
             <Fragment>
-              <p className="Skills-Title">
+              <p className="Skills-Title allTitles">
                 {el.title}
                 <LaptopMacIcon style={{ color: "#6ab5d4" }} />
               </p>
@@ -38,7 +38,7 @@ class SkillsData extends Component {
         {Data.softSkills.map((el, id) => {
           return (
             <Fragment>
-              <p className="Skills-Title">
+              <p className="Skills-Title allTitles">
                 {el.title}
                 <FaceIcon style={{ color: "#6ab5d4" }} />
               </p>

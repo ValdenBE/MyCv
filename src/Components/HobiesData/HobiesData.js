@@ -14,7 +14,7 @@ class HobiesData extends Component {
         {Data.hobies.map((el, id)=>{
           return(
             <Fragment>
-            <p className="Hobbies-Title">{el.title}<SportsEsportsIcon style={{color:"#6ab5d4"}}/></p>
+            <p className="Hobbies-Title allTitles">{el.title}<SportsEsportsIcon style={{color:"#6ab5d4"}}/></p>
             <hr />
             <p>{el.items.join(", ")}</p>
             </Fragment>

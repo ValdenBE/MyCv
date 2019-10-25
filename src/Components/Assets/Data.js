@@ -84,7 +84,7 @@ const CVData = {
       title: 'Mes Connaissances',
       
       itemsOne: ['Typescript', 'Angular', 'PHP'],
-      itemsTwo: ['React', 'Javascript', 'Html', 'Css/Sass','Wordpress','Node','Git & Gitflow']
+      itemsTwo: ['React', 'Javascript', 'HTML', 'CSS/Sass','Wordpress','Node','Git & Gitflow']
     },
   ],
   softSkills: [
