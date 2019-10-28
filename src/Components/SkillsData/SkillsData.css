@@ -29,3 +29,6 @@ p{
     text-align: left !important;
 margin-left: -1.5rem !important;
 }
+.skillbar-bar{
+    transition: none !important;
+}
