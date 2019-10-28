@@ -75,25 +75,69 @@ const CVData = {
     ]
   },
 
-
-
-
-  skills: [
-
+  skills : [
     {
-      title: 'Mes Connaissances',
+      "type": "HTML",
+      "level": 60
+    },
+    {
+      "type": "CSS/Sass",
+      "level": 60
+    },
+    {
+      "type": "Javascript",
+      "level": 60
+    },
+    {
+      "type": "Typescript",
+      "level": 30
+    },
+    {
+      "type": "React",
+      "level": 50
+    },
+    {
+      "type": "Angular",
+      "level": 25
+    },
+    {
+      "type": "Wordpress",
+      "level": 30
+    },
+    {
+      "type": "NodeJs",
+      "level": 25
+    },
+    {
+      "type": "Git",
+      "level": 50
+    },
+  ],
+  colors : {
+    "bar": "#6ab5d4",
+    "title": {
+      "text": "#fff",
+      "background": "inherit"
+    }
+  },
+
+
+  // skills: [
+
+  //   {
+  //     title: 'Mes Connaissances',
       
-      itemsOne: ['Typescript', 'Angular', 'PHP'],
-      itemsTwo: ['React', 'Javascript', 'HTML', 'CSS/Sass','Wordpress','Node','Git & Gitflow']
-    },
-  ],
-  softSkills: [
+  //     itemsOne: ['Typescript', 'Angular', 'PHP'],
+  //     itemsTwo: ['React', 'Javascript', 'HTML', 'CSS/Sass','Wordpress','Node','Git & Gitflow']
+  //   },
+  // ],
+  // softSkills: [
 
-    {
-      title: 'Mes Soft Skills',
-      items: ['Communication', 'Gestion du stress', 'Motivation','Curiosité']
-    },
-  ],
+  //   {
+  //     title: 'Mes Soft Skills',
+  //     items: ['Communication', 'Gestion du stress', 'Motivation','Curiosité']
+  //   },
+  // ],
   hobies: [{
     title: 'Mes Hobbies',
     items: ['Jeux vidéos', 'Musique', 'Informatique', 'Technologie']

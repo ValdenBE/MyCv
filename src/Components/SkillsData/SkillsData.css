@@ -13,3 +13,17 @@ justify-content: space-between;
 p{
     font-family: 'Roboto', sans-serif;
 }
+.skillbar{
+    width: 90% !important;
+    margin-bottom: 10px !important;
+    margin-top: 2rem !important;
+}
+.skillbar-title{
+    background: white !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
+}
+.skillbar-title span{
+    background: white !important;
+    color: #6ab5d4;
+}

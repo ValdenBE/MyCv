@@ -3,50 +3,19 @@ import "./SkillsData.css";
 import Data from "../Assets/Data";
 import LaptopMacIcon from "@material-ui/icons/LaptopMac";
 import FaceIcon from "@material-ui/icons/Face";
-
+import SkillBar from 'react-skillbars';
 class SkillsData extends Component {
   render() {
     return (
       <div className="SkillsData">
-        {Data.skills.map((el, id) => {
-          return (
-            <Fragment>
+        <Fragment>
               <p className="Skills-Title allTitles">
-                {el.title}
+              Mes Connaissances
                 <LaptopMacIcon style={{ color: "#6ab5d4" }} />
               </p>
               <hr />
-              <p>
-                {"Bonnes connaissances en :"}
-                
-                    <p>
-                      <span>{el.itemsTwo.join(", ")}</span>
-                    </p>
-           
-              
-                {"Connaissances basiques en :"}
-                
-                    <p>
-                      <span>{el.itemsOne.join(", ")}</span>
-                    </p>
-          
-            
-              </p>
             </Fragment>
-          );
-        })}
-        {Data.softSkills.map((el, id) => {
-          return (
-            <Fragment>
-              <p className="Skills-Title allTitles">
-                {el.title}
-                <FaceIcon style={{ color: "#6ab5d4" }} />
-              </p>
-              <hr />
-              <p>{el.items.join(", ")}</p>
-            </Fragment>
-          );
-        })}
+        <SkillBar skills={Data.skills} height={15} colors={Data.colors} />     
       </div>
     );
   }
