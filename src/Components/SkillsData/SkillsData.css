@@ -1,5 +1,5 @@
 .SkillsData{
-    margin-bottom: 5rem
+    margin-bottom: 0rem;
 }
 .Skills-Title{
     font-family: 'Montserrat', sans-serif;
@@ -14,7 +14,7 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 .skillbar{
-    width: 90% !important;
+    width: 99% !important;
     margin-bottom: 10px !important;
     margin-top: 2rem !important;
 }
@@ -24,6 +24,8 @@ p{
     font-weight: normal !important;
 }
 .skillbar-title span{
-    background: white !important;
+    background: none !important;
     color: #6ab5d4;
+    text-align: left !important;
+margin-left: -1.5rem !important;
 }
