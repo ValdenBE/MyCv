@@ -1,6 +1,6 @@
 import ProfilePic from "./ProfilePic.jpg";
 import Badges from "./Badges.jpg";
-const Data = {
+const CVData = {
   personalData: {
     name: "Pirghaye Fabian",
     title: "Junior - Front End - Web Developer",
@@ -16,10 +16,12 @@ const Data = {
         type: "Mobile",
         value: "0499/33.23.35"
       },
+      //{ type: 'website', value: 'example.com' },
       {
         type: "Linkedin",
         value: "linkedin.com/in/valdenbe/"
       },
+      //{ type: 'twitter', value: 'twitter.com/404' },
       {
         type: "Github",
         value: "github.com/valdenbe"
@@ -128,6 +130,13 @@ const Data = {
       background: "inherit"
     }
   },
+
+  softSkills: [
+    {
+      title: "Mes Soft Skills",
+      items: ["Communication", "Gestion du stress", "Motivation", "Curiosité"]
+    }
+  ],
   hobies: [
     {
       title: "Mes Hobbies",
@@ -135,4 +144,4 @@ const Data = {
     }
   ]
 };
-export default Data;
+export default CVData;
