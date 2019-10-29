@@ -1,15 +1,15 @@
-.WorkData{
-    margin-bottom: 5rem
+.WorkData {
+  margin-bottom: 5rem;
 }
-.Work-Title{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.4rem;
-font-style: italic;
-margin-bottom: -0.8rem;
-text-align: initial;
-display: flex;
-justify-content: space-between;
+.Work-Title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  font-style: italic;
+  margin-bottom: -0.8rem;
+  text-align: initial;
+  display: flex;
+  justify-content: space-between;
 }
-p{
-    font-family: 'Roboto', sans-serif;
+p {
+  font-family: "Roboto", sans-serif;
 }

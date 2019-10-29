@@ -1,19 +1,19 @@
-.SchoolData{
-    margin-bottom: 5rem
+.SchoolData {
+  margin-bottom: 5rem;
 }
-.School-Title{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.4rem;
-font-style: italic;
-margin-bottom: -0.8rem;
-text-align: initial;
-display: flex;
-justify-content: space-between;
+.School-Title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  font-style: italic;
+  margin-bottom: -0.8rem;
+  text-align: initial;
+  display: flex;
+  justify-content: space-between;
 }
-p{
-    font-family: 'Roboto', sans-serif;
+p {
+  font-family: "Roboto", sans-serif;
 }
 .MuiSvgIcon-root {
-    fill: currentColor;
-    font-size: 3rem !important;
+  fill: currentColor;
+  font-size: 3rem !important;
 }
