@@ -51,8 +51,5 @@ a{
     color: #6ab5d4;
 }
 .Badges {
-    width: 100%;
-    width: -moz-available;          
-    width: -webkit-fill-available; 
-    width: fill-available;
+    width: 100%
 }
