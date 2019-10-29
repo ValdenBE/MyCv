@@ -1,5 +1,5 @@
 import ProfilePic from "./ProfilePic.jpg"
-
+import Badges from './Badges.jpg'
 const CVData = {
 
 
@@ -9,6 +9,7 @@ const CVData = {
     title: 'Junior - Front End - Web Developer',
     alias: '* Valden *',
     image: ProfilePic,
+    badges: Badges,
     contacts: [{
         type: 'Mail',
         value: 'Pirghaye.f@gmail.com'

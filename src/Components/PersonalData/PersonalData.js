@@ -19,12 +19,14 @@ class PersonalData extends Component {
           )
         })}
         <hr />
+        <img className="Badges" src={Data.personalData.badges} alt="Badges pic"></img>
         <p className="Contact">Contact :</p>
         {Data.personalData.contacts.map(el=>{
           return (
             <p className="Personal-Text"><span className="Personal-Span">{el.type}{" : "}</span>{el.value}</p>
           )
         })}
+        
       </div>
     );
   }

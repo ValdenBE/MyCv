@@ -2,7 +2,6 @@ import React, { Component, Fragment } from "react";
 import "./SkillsData.css";
 import Data from "../Assets/Data";
 import LaptopMacIcon from "@material-ui/icons/LaptopMac";
-import FaceIcon from "@material-ui/icons/Face";
 import SkillBar from 'react-skillbars';
 class SkillsData extends Component {
   render() {
